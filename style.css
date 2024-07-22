@@ -171,3 +171,28 @@ span{
      background-color:#30593b ;
      cursor: pointer;
 }
+
+@media (max-width: 765px) {
+  .chat-display-cont{
+    display: none;
+  }
+  main{
+    display: block;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+ 
+ .chat-container{
+    width: 100%;
+ }
+ .icon{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 28rem;
+ }
+}
